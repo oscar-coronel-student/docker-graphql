@@ -23,8 +23,6 @@ jobs:
       with:
         major_pattern: "major:"
         minor_pattern: "feat:"
-        patch_pattern: "patch:"
-        increment_pattern: "increment:"
         version_format: "${major}.${minor}.${patch}-prerelease${increment}"
       id: version
 
