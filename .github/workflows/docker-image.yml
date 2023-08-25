@@ -24,6 +24,9 @@ jobs:
         major_pattern: "major:"
         minor_pattern: "feat:"
         version_format: "${major}.${minor}.${patch}-prerelease${increment}"
+        bump_each_commit: false
+        search_commit_body: false
+        enable_prerelease_mode: false
       id: version
 
     - name: Docker login
